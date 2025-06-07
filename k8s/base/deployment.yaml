@@ -16,7 +16,7 @@ spec:
         app: stock-fund-valuation
     spec:
       containers:
-      - name: stock-fund-valuation
-        image: stock-fund-valuation:latest
-        ports:
-        - containerPort: 8080
+        - name: stock-fund-valuation
+          image: stock-fund-valuation:latest
+          ports:
+            - containerPort: 8080
