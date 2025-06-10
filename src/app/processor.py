@@ -20,6 +20,7 @@ def enrich_valuation_data(data: dict[str, Any]) -> dict[str, Any]:
 
     Returns:
         dict[str, Any]: The enriched data with added valuation fields.
+
     """
     try:
         # Placeholder logic for valuation computation
